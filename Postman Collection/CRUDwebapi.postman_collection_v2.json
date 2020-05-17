@@ -1,0 +1,136 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CRUDwebapi",
+		"_postman_id": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"request": {
+				"url": "http://localhost:8080/CRUD/webapi/users/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"request": {
+				"url": "http://localhost:8080/CRUD/webapi/users/read/111",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"request": {
+				"url": "http://localhost:8080/CRUD/webapi/users/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"request": {
+				"url": "http://localhost:8080/CRUD/webapi/users/update",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining,MultiVariate-Analysis\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"request": {
+				"url": "http://localhost:8080/CRUD/webapi/users/delete/116",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining,MultiVariate-Analysis\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

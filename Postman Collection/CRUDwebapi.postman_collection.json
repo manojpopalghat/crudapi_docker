@@ -1,0 +1,204 @@
+{
+	"id": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+	"name": "CRUDwebapi",
+	"description": "",
+	"order": [
+		"502f86ee-371d-2626-8abf-feaac2eee008",
+		"81264d2a-16bf-ac74-aec4-68e535146060",
+		"cced231c-c6ae-62d7-83eb-e0afe821ca04",
+		"006d0725-e6f8-70c9-1bb3-13408138fa4c",
+		"78d6fe44-1793-32fc-0cb0-c6f37810c9b8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1589723048792,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "006d0725-e6f8-70c9-1bb3-13408138fa4c",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CRUD/webapi/users/update",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589723319097,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining,MultiVariate-Analysis\"\n}"
+		},
+		{
+			"id": "502f86ee-371d-2626-8abf-feaac2eee008",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CRUD/webapi/users/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589723108348,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+		},
+		{
+			"id": "78d6fe44-1793-32fc-0cb0-c6f37810c9b8",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CRUD/webapi/users/delete/116",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589723388194,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining,MultiVariate-Analysis\"\n}"
+		},
+		{
+			"id": "81264d2a-16bf-ac74-aec4-68e535146060",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CRUD/webapi/users/read/111",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589723140813,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+		},
+		{
+			"id": "cced231c-c6ae-62d7-83eb-e0afe821ca04",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CRUD/webapi/users/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "93eb276b-277e-b9dd-2262-36ab934d8c2a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/CRUD/webapi/users/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589723235289,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":201,\n\t\"name\":\"anil kotyal\",\n\t\"age\":23,\n\t\"department\":\"Statistics\",\n\t\"subject\":\"python,Data-Science,Regression-Analysis,Data-Mining\"\n}"
+		}
+	]
+}

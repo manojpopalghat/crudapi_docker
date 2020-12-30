@@ -40,6 +40,8 @@ _index file(not parsed in Postman)_
 http://localhost:8080/CRUD/  
 This shows simply table of Users in Database  
 
+![](CRUD/Images/index.png)
+
 ### 1)READ API:
 To test the read api, open POSTMAN and enter the following as the request URL.  
 http://localhost:8080/CRUD/webapi/users  

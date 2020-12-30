@@ -45,12 +45,19 @@ This shows simply table of Users in Database
 ### 1)READ API:
 To test the read api, open POSTMAN and enter the following as the request URL.  
 http://localhost:8080/CRUD/webapi/users  
-Select Method ‘GET’, and enter above request to read all users this will return Array of JSON Objects .  
+Select Method ‘GET’, and enter above request to read all users this will return Array of JSON Objects.
+
+![](CRUD/Images/get_all.png)
+
 To read user with some id enter below request  
 http://localhost:8080/CRUD/webapi/users/read/101  
-this will return user’s JSON having given id.  
-if you entered wrong id then this will return an empty JSON values.  
+This will return user’s JSON having given id.
 
+![](CRUD/Images/get_by_id.png)
+
+If you entered wrong id then this will return an empty JSON values.  
+
+![](CRUD/Images/get_null.png)
 
 ### 2)CREATE API:
 To test the create api, open POSTMAN and enter the following as the request URL.  
@@ -64,8 +71,12 @@ e.g.
        "department":"Mathematics",  
        "subject":"Dev-Ops"  
   }  
-and if the user is alredy present with given id then this will not stored data and returns empty JSON values.  
+  
+  ![](CRUD/Images/post.png)
+  
+And if the user is alredy present with given id then this will not stored data and returns empty JSON values.  
 
+![](CRUD/Images/post_null.png)
 
 ### 3)UPDATE API:
 To test the update api, open POSTMAN and enter the following as the request URL.  
@@ -80,13 +91,22 @@ e.g.
        "department":"Mathematics",  
        "subject":"Docker"  
   }    
-if user is not present then it will create a new user.  
+  
+  ![](CRUD/Images/put.png)
+  
+If user is not present then it will create a new user.  
 
+![](CRUD/Images/put_post.png)
 
 ### 4)DELETE API:
 To test the delete api, open POSTMAN and enter the following as the request URL.  
 http://localhost:8080/CRUD/webapi/users/delete/110  
 Select Method ‘DELETE’  
-i.e. this method deletes user having id 110 and returns user’s JSON having id=110.  
+i.e. this method deletes user having id 110 and returns user’s JSON having id=110.
+
+![](CRUD/Images/delete.png)
+
 And if user is not present with corresponding id then it return empty JSON values.  
+
+![](CRUD/Images/delete_null.png)
   
